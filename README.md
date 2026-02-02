@@ -35,8 +35,9 @@ Tailwind CSS
 Charting (PriceChart component)
 
 **Project Structure:**
+
+```text
 ai-stock-prediction-alert-system/
-│
 ├── backend/
 │   ├── api.py              # FastAPI server (prediction API)
 │   ├── model.py            # ML model definition
@@ -61,6 +62,7 @@ ai-stock-prediction-alert-system/
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
+```
 
 **How It Works (Architecture):**
 CSV Data → trainmodel.py → model.pkl  
