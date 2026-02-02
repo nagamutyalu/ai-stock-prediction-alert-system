@@ -103,7 +103,10 @@ Output:Predicted next price
 Trading signal:
   
   BUY → if price is expected to rise
+
+  
   SELL → if price is expected to fall
+  
   HOLD → if movement is small
 
 **Contributing:**
