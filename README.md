@@ -1,5 +1,6 @@
 **📈AI Stock Prediction & Alert System:**
 
+
 An end-to-end AI-powered web application that predicts stock prices using machine learning and shows buy/sell/hold signals with visualizations on a React dashboard. The backend is built with FastAPI, the ML model is trained in Python (scikit-learn), and the frontend is built using React + Tailwind CSS.
 
 **Project Overview:**
@@ -15,6 +16,7 @@ This project aims to:
 ->Notify users about significant price movements through alerts.
 
 ->Provide an easy-to-use web dashboard for visualization and interaction.
+
 
 **Features:**
 
@@ -88,7 +90,8 @@ ai-stock-prediction-alert-system/
 
 **How It Works (Architecture):**
 
-CSV Data → trainmodel.py → model.pkl  
+CSV Data → trainmodel.py → model.pkl
+
 model.pkl → api.py (FastAPI) → JSON Prediction  
 Frontend (React) → calls API → Displays price & signal
 
@@ -124,7 +127,7 @@ Feel free to open issues for:
  
  API enhancements
 
-**Conclusion:**
+***Conclusion:***
 
 This project demonstrates an end-to-end AI stock prediction and alert system by integrating a machine learning model with a FastAPI backend and a React frontend dashboard. It provides predicted prices and simple Buy/Sell/Hold signals, helping users understand how ML models can be deployed in real-world web applications. The system serves as a solid foundation that can be extended with real-time data and more advanced models in the future.
 
