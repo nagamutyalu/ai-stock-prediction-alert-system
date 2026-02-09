@@ -133,4 +133,4 @@ This project demonstrates an end-to-end AI stock prediction and alert system by 
 
 **⚠️ Disclaimer:**
 
-This project is for learning and demo purposes only. It is not financial advice.
+This project is for learning and educational purposes only. It is not financial advice.
